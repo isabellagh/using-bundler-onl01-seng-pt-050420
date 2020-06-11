@@ -15,7 +15,7 @@ gem "hashie"
 gem "sinatra", "1.4.4"
 gem "octokit", "~>2.0"
 gem "pry", :group => "development"
-gem 'nokogiri', :git => 'login@example.com:some-user-account/some-private-gem.git'
+gem "awesome_print", :git => 'http://github.com/awesome-print/awesome_print/'
 
 group :test do
   gem "rspec"
