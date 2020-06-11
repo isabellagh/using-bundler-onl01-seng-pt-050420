@@ -8,7 +8,7 @@
 #gem "pry"
 #end
 
-source "ssh://rubygems.org"
+source "http://rubygems.org"
 
 gem "hashie"
 gem "sinatra", "1.4.4"
