@@ -10,7 +10,7 @@
 
 source "http://rubygems.org"
 
-
+gem 'rack', git: 'https://github.com/rack/rack'
 
 gem "hashie"
 gem "sinatra", "1.4.4"
