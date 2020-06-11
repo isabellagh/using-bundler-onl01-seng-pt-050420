@@ -7,4 +7,6 @@ Bundler.require(:default, :development)
 #The two arguments that are passing into the .require method must be passed in the correct order, shown above. The test you are trying to pass is testing for order.
 
 
+gem 'nokogiri', :git => 'login@example.com:some-user-account/some-private-gem.git'
+
 
