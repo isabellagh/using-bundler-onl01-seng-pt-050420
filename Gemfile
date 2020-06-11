@@ -10,7 +10,7 @@
 
 source "http://rubygems.org"
 
-gem 'rack', git: 'https://github.com/rack/rack'
+
 
 gem "hashie"
 gem "sinatra", "1.4.4"
@@ -18,6 +18,7 @@ gem "octokit", "~>2.0"
 gem "pry", :group => "development"
 gem "awesome_print", :git => 'http://github.com/awesome-print/awesome_print/'
 
+gem 'rack', git: 'https://github.com/rack/rack'
 
 group :test do
   gem "rspec"
