@@ -8,6 +8,8 @@
 #gem "pry"
 #end
 
+gem 'rack', git: 'https://github.com/rack/rack'
+
 source "http://rubygems.org"
 
 
@@ -18,7 +20,7 @@ gem "octokit", "~>2.0"
 gem "pry", :group => "development"
 gem "awesome_print", :git => 'http://github.com/awesome-print/awesome_print/'
 
-gem 'rack', git: 'https://github.com/rack/rack'
+
 
 group :test do
   gem "rspec"
